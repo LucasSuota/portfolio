@@ -9,9 +9,6 @@ const Text = () => {
       <h2 className="text-slate-200 font-thin sm:text-3xl text-xl">
         DESENVOLVEDOR FRONTEND
       </h2>
-      <h3 className="text-slate-200 sm:text-xl text-md">
-        &ldquo;Não só um DESIGN bonito. &rdquo;
-      </h3>
     </section>
   );
 };
