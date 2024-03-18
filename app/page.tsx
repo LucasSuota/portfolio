@@ -12,7 +12,6 @@ const Home = () => {
       </div>
       <div className="w-full flex flex-row items-center justify-center gap-2">
         <MyPhoto />
-        <MyPhoto />
       </div>
       <div>
         <SocialMedias />

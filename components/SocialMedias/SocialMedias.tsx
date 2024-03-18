@@ -17,28 +17,40 @@ const SocialMedias = () => {
     <div className="text-slate-200 flex flex-col items-center gap-4">
       <div className="flex flex-row sm:gap-10 gap-4">
         <Link href={"https://www.linkedin.com/in/lucas-suota-91b83b222"}>
-          <LinkedInIcon style={{ fontSize: "2.5rem" }} />
+          <LinkedInIcon
+            className="text-slate-300 hover:text-white transition-all"
+            style={{ fontSize: "2.5rem" }}
+          />
         </Link>
-        <Link href={"https://github.com/LucasSuota"}>
+        <Link
+          className="text-slate-300 hover:text-white transition-all"
+          href={"https://github.com/LucasSuota"}
+        >
           <GitHubIcon style={{ fontSize: "2.5rem" }} />
         </Link>
-        <Link href={"https://www.instagram.com/lucassuotass/"}>
+        <Link
+          className="text-slate-300 hover:text-white transition-all"
+          href={"https://www.instagram.com/lucassuotass/"}
+        >
           <InstagramIcon style={{ fontSize: "2.5rem" }} />
         </Link>
-        <Link href={"mailto:lucassuotass@gmail.com"}>
+        <Link
+          className="text-slate-300 hover:text-white transition-all"
+          href={"mailto:lucassuotass@gmail.com"}
+        >
           <EmailIcon style={{ fontSize: "2.5rem" }} />
         </Link>
       </div>
       <div className="flex flex-row text-center gap-2 w-4/5">
         <a
-          className="border-2 border-slate-200 border-slate-200 p-2"
+          className=" border-t-2 hover:bg-white hover:text-black transition-all border-slate-200 p-2"
           href={"/files/LUCASSUOTAPT.pdf"}
           download={true}
         >
           Portuguese Curriculum
         </a>
         <a
-          className=" border-2 border-slate-200 p-2"
+          className=" border-t-2 hover:bg-white hover:text-black transition-all border-slate-200 p-2"
           href={"/files/LUCASSUOTAEN.pdf"}
           download={true}
         >
