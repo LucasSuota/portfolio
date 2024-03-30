@@ -19,7 +19,7 @@ const Text = () => {
         LUCAS SUOTA
       </h1>
       <h2 className="h-text text-slate-200 font-thin sm:text-3xl text-xl">
-        DESENVOLVEDOR FRONTEND
+        DESENVOLVEDOR FULLSTACK
       </h2>
     </section>
   );
